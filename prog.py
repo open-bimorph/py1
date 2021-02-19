@@ -6,12 +6,10 @@ while True:
        break
 
    for i in range(1, a + 1):
-       odpowiedz = ""
-
        if i % 2 == 0:
-           odpowiedz += "parzysta"
+           odpowiedz = "parzysta"
        else:
-           odpowiedz += "nieparzysta"
+           odpowiedz = "nieparzysta"
 
        if i % 3 == 0:
            odpowiedz += ", wielokrotnosc 3"
