@@ -1,10 +1,7 @@
-b = True
-
-while b == True:
+while True:
    a = int(input())
 
    if a == 0:
-       b = False
        print('dziekuje, koniec!')
        break
 
